@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "parchment_mfregular";
+  src: url("assets/fonts/parchmentmf-vqge-webfont.woff2") format("woff2"),
+       url("assets/fonts/parchmentmf-vqge-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 /* Basic Style */
 .page {
   background-color: #f8f8f8;
@@ -14,7 +21,8 @@
   width: 100%;
 }
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: parchment_mfregular, fantasy, cursive;
+  font-size: 25px;
 }
 @media (max-width: 768px) {
 
