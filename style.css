@@ -119,9 +119,6 @@
 .new-task__input {
   width: 318px;
 }
-.new-task__add-button:hover {
-  color: #0fc57c;
-}
 /* Task list */
 .undone-task__item,
 .done-task__item{
@@ -147,9 +144,6 @@
 }
 .item__input {
   width: 226px;
-}
-.item__delete-button:hover {
-  color: #cf2323;
 }
 .item__delete-button__image {
   height: 2em;
