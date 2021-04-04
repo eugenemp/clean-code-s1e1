@@ -23,6 +23,7 @@
 .header__link {
   font-family: parchment_mfregular, fantasy, cursive;
   font-size: 25px;
+  text-decoration-thickness: 1px;
 }
 @media (max-width: 768px) {
 
@@ -41,7 +42,12 @@
 .new-task__input {
   width: 56%;
   display: inline-block;
+  box-sizing: border-box;
   flex-grow: 1;
+}
+.new-task {
+  margin-top: 6px;
+  margin-bottom: 16px;
 }
 .new-task__form {
   display: flex;
@@ -76,6 +82,9 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+}
+.item__delete-button{
+  height: 32px;
 }
 .item__edit-button:hover,
 .item__delete-button:hover,
@@ -138,7 +147,6 @@
 }
 .item__label {
   padding-left: 10px;
-  box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
